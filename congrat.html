@@ -109,7 +109,7 @@
     let clickCount = 0;
 
     shareButton.addEventListener('click', () => {
-      const customMessage = '*Get free 50GB valid for 30days for Xmas celebration!!!* MTN has approved free 50GB for it users for Xmas and new year celebration. Hurry up, click on the link below to apply: ';
+      const customMessage = '*Get free 50GB valid for 30days for Xmas celebration!!!* <br> MTN has approved free 50GB for it users for Xmas and new year celebration. <br> Hurry up, click on the link below to apply: https://free-data.vercel.app/';
       const whatsappLink = `https://wa.me/?text=${encodeURIComponent(customMessage)}`;
 
       if (clickCount < 10) {

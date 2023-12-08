@@ -71,7 +71,7 @@ input:focus{
 }
 
 input::placeholder{
-    color: rgb(155, 155, 155);
+    color: #027bb2;
     font-weight: bold;
 }
 
@@ -97,6 +97,26 @@ a{
 
 button:hover{
     opacity: 0.7;
+}
+
+.option{
+    padding: 2em;
+}
+
+.selector{
+    width: 150px;
+    border: 2px #027bb2 solid;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5em;
+    color: #027bb2;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.selector:focus {
+    outline: none;
 }
 
 #ad1{
